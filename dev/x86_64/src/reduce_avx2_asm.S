@@ -72,7 +72,7 @@ vmovdqa %ymm9, (\offset + 224)(%rdi)
 
 .text
 .global MLK_ASM_NAMESPACE(reduce_avx2_asm)
-.balign 4
+.balign 64
 MLK_ASM_FN_SYMBOL(reduce_avx2_asm)
 
 // Broadcast 3329 (0x0D01) to all elements of ymm0

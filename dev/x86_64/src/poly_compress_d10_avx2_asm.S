@@ -36,7 +36,7 @@
 
 .text
 .global MLK_ASM_NAMESPACE(poly_compress_d10_avx2_asm)
-.balign 4
+.balign 64
 MLK_ASM_FN_SYMBOL(poly_compress_d10_avx2_asm)
 
 // Broadcast v = 20159 (0x4EBF) to all 16-bit elements of ymm0
